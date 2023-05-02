@@ -14,7 +14,6 @@
 		7D0CEAC329E2DB7C00411167 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0CEAC229E2DB7C00411167 /* Realm */; };
 		7D0CEAC529E2DB7C00411167 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0CEAC429E2DB7C00411167 /* RealmSwift */; };
 		7D0CEAC729E2DC2600411167 /* ToDoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CEAC629E2DC2600411167 /* ToDoFile.swift */; };
-		7D0CEAC929E2DD8700411167 /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CEAC829E2DD8700411167 /* AddTask.swift */; };
 		7D0CEACB29E2DF1F00411167 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CEACA29E2DF1F00411167 /* Home.swift */; };
 		7DA81A7629FF8BF3002E1C75 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA81A7529FF8BF3002E1C75 /* FileModel.swift */; };
 		7DAA8D2B2A0016160007E85A /* ListViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA8D2A2A0016160007E85A /* ListViewUI.swift */; };
@@ -27,7 +26,6 @@
 		7D0CEAB729E2D8D100411167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0CEABA29E2D8D100411167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D0CEAC629E2DC2600411167 /* ToDoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFile.swift; sourceTree = "<group>"; };
-		7D0CEAC829E2DD8700411167 /* AddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
 		7D0CEACA29E2DF1F00411167 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7DA81A7529FF8BF3002E1C75 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
 		7DAA8D2A2A0016160007E85A /* ListViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewUI.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				7D0CEACA29E2DF1F00411167 /* Home.swift */,
-				7D0CEAC829E2DD8700411167 /* AddTask.swift */,
 				7D0CEAB529E2D8CB00411167 /* ContentView.swift */,
 				7DAA8D2A2A0016160007E85A /* ListViewUI.swift */,
 			);
@@ -179,7 +176,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0CEAC929E2DD8700411167 /* AddTask.swift in Sources */,
 				7D0CEAC729E2DC2600411167 /* ToDoFile.swift in Sources */,
 				7DA81A7629FF8BF3002E1C75 /* FileModel.swift in Sources */,
 				7D0CEACB29E2DF1F00411167 /* Home.swift in Sources */,

@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct Home: View {
+    
+    @ObservedResults(MissionItem.self) var missionItem
     @ObservedObject var listViewModel = ListViewModel()
+   
     
     var body: some View {
         
@@ -19,46 +23,7 @@ struct Home: View {
                     .environmentObject(listViewModel)
                     .navigationTitle("Mission")
             }
-                VStack{
-                    Spacer()
-                    
-                    HStack{
 
-                        EditButton()
-                            .frame(width: 100.0)
-                            .frame(height: 40)
-                            .background(.tint)
-                            .foregroundColor(.white)
-                            .cornerRadius(15)
-                            .font(.headline)
-                        
-                        Spacer()
-                        
-                        Button{
-                            listViewModel.isShowAddView.toggle()
-                        } label: {
-                            HStack{
-                                Image(systemName: "plus.circle")
-                                Text("ADD")
-                            }
-                            .frame(width: 100.0)
-                            .frame(height: 40)
-                            .background(.tint)
-                            .foregroundColor(.white)
-                            .cornerRadius(15)
-                            .font(.headline)
-                        }
-                    }
-                    .padding()
-                    .background(.white)
-                    .cornerRadius(10)
-                    .padding()
-                }
-            
-                if listViewModel.isShowAddView {
-                    AddWordView()
-                        .environmentObject(listViewModel)
-                }
         }
     }
 }
